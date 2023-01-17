@@ -14,6 +14,7 @@ const Currency = () => {
 
   return (
 		<div className='btn btn-success dropdown-toggle'>
+        <label htmlFor="currency">Currency: </label>
       <select name="currency" id="currency" onChange={(event)=>changeCurrency(event.target.value)}>
         <option value="$">$ Dollar</option>
         <option value="£">£ Pound</option>
