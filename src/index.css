@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.increaseButton {
+    background-color: green;
+    color:white;
+    border-radius: 50%
+ }
+
+ .decreaseButton {
+    background-color: red;
+    color:white;
+    border-radius: 50%
+ }
+ 
