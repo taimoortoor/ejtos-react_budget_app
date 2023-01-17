@@ -23,7 +23,7 @@ const Budget = () => {
 	return (
 		<div className='alert alert-secondary'>
             <label htmlFor='budget'>Budget: {currency}</label>
-			<input type="number" step="10" id="budget" value={budget} onInput={(event)=>changeBudget(event.target.value)}></input>
+			<input type="number" step="10" id="budget" value={budget} maximum="20000" onInput={(event)=>changeBudget(event.target.value)}></input>
 		</div>
 	);
 };
